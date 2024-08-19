@@ -1,6 +1,6 @@
 # 0x11. ES6 data manipulation
 
-## Description:bulb:
+## Description:
 
 Array... Array everywhere
 
@@ -8,7 +8,7 @@ Array... Array everywhere
 - Typed arrays
 - The Set, Map, and Weak link data structures
 
-## Technologies & Tools:computer:
+## Technologies & Tools:
 
 [![Jest](https://img.shields.io/badge/≡-Jest-C21325?logo=Jest&style=flat-square&labelColor=282828&logoColor=C21325)](https://jestjs.io/)
 [![Git](https://img.shields.io/badge/≡-Git-F05032?logo=git&style=flat-square&labelColor=282828)](https://git-scm.com/)
@@ -25,7 +25,7 @@ Array... Array everywhere
 
 ---
 
-## Resources:books:
+## Resources:
 
 Read or watch:
 
@@ -37,7 +37,7 @@ Read or watch:
 
 ---
 
-## Requirements:hammer:
+## Requirements:
 
 - Ubuntu 18.04 LTS using NodeJS 12.22.x
 - Jest Testing Framework
@@ -46,32 +46,32 @@ Read or watch:
 ### Install NodeJS 12.22.x
 
 ```console
-foo@pop-os:~$ curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
-foo@pop-os:~$ sudo bash nodesource_setup.sh
-foo@pop-os:~$ sudo apt install nodejs -y
+Liamis@Liams:~$ curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
+Liamis@Liams:~$ sudo bash nodesource_setup.sh
+Liamis@Liams:~$ sudo apt install nodejs -y
 ```
 
 ### Check version
 
 ```console
-foo@pop-os:~$ nodejs -v
+Liamis@Liams:~$ nodejs -v
 v12.22.1
-foo@pop-os:~$ npm -v
+Liamis@Liams:~$ npm -v
 6.14.12
 ```
 
 ### Install Jest, Babel, and ESLint
 
 ```console
-foo@pop-os:~$ npm install --save-dev jest
-foo@pop-os:~$ npm install --save-dev babel-jest @babel/core @babel/preset-env
-foo@pop-os:~$ npm install --save-dev eslint
-foo@pop-os:~$ npm install
+Liamis@Liams:~$ npm install --save-dev jest
+Liamis@Liams:~$ npm install --save-dev babel-jest @babel/core @babel/preset-env
+Liamis@Liams:~$ npm install --save-dev eslint
+Liamis@Liams:~$ npm install
 ```
 
 ---
 
-## Files:card_file_box:
+## Files:
 
 ### [0. Basic list of objects](./0-get_list_students.js)
 
@@ -98,10 +98,3 @@ foo@pop-os:~$ npm install
 ### [11. Weak link data structure](./100-weak.js)
 
 ---
-
-## Author
-
-- **Joseph Mahiuha** (@Mahiuha) - [<img src="https://img.shields.io/badge/Portfolio-20d6fe.svg?&style=plastic"/>](https://mahiuha.github.io/josephmahiuha/)
-  [<img src="https://img.shields.io/badge/Twitter-1DA1F2.svg?&style=plastic&logo=twitter&logoColor=white"/>](https://twitter.com/Joseph_Mahiuha)
-  [<img src="https://img.shields.io/badge/Linkedin-0A66C2.svg?&style=plastic&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/joseph-mahiuha-498a52162/)
-  [<img src="https://img.shields.io/badge/GitHub-181717.svg?&style=plastic&logo=github&logoColor=white"/>](https://github.com/Mahiuha)
