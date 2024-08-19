@@ -1,6 +1,6 @@
 # 0x10. ES6 classes
 
-## Description:bulb:
+## Description:
 
 ES6 Classes for all the things!
 
@@ -10,7 +10,7 @@ ES6 Classes for all the things!
 - How to extend a class from another
 - Metaprogramming and symbols
 
-## Technologies & Tools:computer:
+## Technologies & Tools:
 
 [![Jest](https://img.shields.io/badge/≡-Jest-C21325?logo=Jest&style=flat-square&labelColor=282828&logoColor=C21325)](https://jestjs.io/)
 [![Git](https://img.shields.io/badge/≡-Git-F05032?logo=git&style=flat-square&labelColor=282828)](https://git-scm.com/)
@@ -27,7 +27,7 @@ ES6 Classes for all the things!
 
 ---
 
-## Resources:books:
+## Resources:
 
 Read or watch:
 
@@ -36,7 +36,7 @@ Read or watch:
 
 ---
 
-## Requirements:hammer:
+## Requirements:
 
 - Ubuntu 18.04 LTS using NodeJS 12.22.x
 - Jest Testing Framework
@@ -45,31 +45,31 @@ Read or watch:
 ### Install NodeJS 12.22.x
 
 ```console
-foo@pop-os:~$ curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
-foo@pop-os:~$ sudo bash nodesource_setup.sh
-foo@pop-os:~$ sudo apt install nodejs -y
+Liamsi@Liams:~$ curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
+Liamsi@Liams:~$ sudo bash nodesource_setup.sh
+Liamsi@Liams:~$ sudo apt install nodejs -y
 ```
 
 ### Check version
 
 ```console
-foo@pop-os:~$ nodejs -v
+Liamsi@Liams:~$ nodejs -v
 v12.22.1
-foo@pop-os:~$ npm -v
+Liamsi@Liams:~$ npm -v
 6.14.12
 ```
 
 ### Install Jest, Babel, and ESLint
 
 ```console
-foo@pop-os:~$ npm install --save-dev jest
-foo@pop-os:~$ npm install --save-dev babel-jest @babel/core @babel/preset-env
-foo@pop-os:~$ npm install --save-dev eslint
+Liamsi@Liams:~$ npm install --save-dev jest
+Liamsi@Liams:~$ npm install --save-dev babel-jest @babel/core @babel/preset-env
+Liamsi@Liams:~$ npm install --save-dev eslint
 ```
 
 ---
 
-## Files:card_file_box:
+## Files:
 
 ### [0. You used to attend a place like this at some point](./0-classroom.js)
 
@@ -96,10 +96,3 @@ foo@pop-os:~$ npm install --save-dev eslint
 ### [11. EVcar](./100-evcar.js)
 
 ---
-
-## Author
-
-- **Joseph Mahiuha** (@Mahiuha) - [<img src="https://img.shields.io/badge/Portfolio-20d6fe.svg?&style=plastic"/>](https://mahiuha.github.io/josephmahiuha/)
-  [<img src="https://img.shields.io/badge/Twitter-1DA1F2.svg?&style=plastic&logo=twitter&logoColor=white"/>](https://twitter.com/Joseph_Mahiuha)
-  [<img src="https://img.shields.io/badge/Linkedin-0A66C2.svg?&style=plastic&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/joseph-mahiuha-498a52162/)
-  [<img src="https://img.shields.io/badge/GitHub-181717.svg?&style=plastic&logo=github&logoColor=white"/>](https://github.com/Mahiuha)
